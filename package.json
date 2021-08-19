@@ -1,0 +1,16 @@
+{
+  "name": "TXT-A-NERD",
+  "version": "1.0.0",
+  "description": "TXT-A-Nerd, a website that can help you through your future.",
+  "main": "index.js",
+  "scripts": {
+    "script1": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.12",
+    "typed.js": "^2.0.12"
+  }
+}

@@ -1,0 +1,314 @@
+@media (min-width:320px)  {
+    /* smartphones, iPhone, portrait 480x320 phones */
+    .inner-main {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .main-img {
+        margin: 0 0 15px 0;
+    }
+
+    .main-img img {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .type {
+        font-size: 1em;
+    }
+
+    .main-desc h2 {
+        font-size: 1em;
+    }
+
+    .arrow-down {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    @keyframes bounce {
+        100% {
+            transform: 0;
+        }
+    }
+
+    .arrow-down img {
+        width: 35px;
+    }
+
+    /* HIW */
+    section#hiw {
+        height: 200vh;
+    }
+
+    .inner-hiw {
+        flex-wrap: wrap;
+    }
+
+    .hiw-desc {
+        margin-bottom: 2.1875em;
+    }
+
+    .hiw-desc h1 {
+        font-size: 2.375em;
+    }
+
+    .hiw-desc p {
+        font-size: 0.875em;
+        margin: 10px 0 10px 0;
+    }
+
+    .btn {
+        text-align: center;
+        margin-top: 2.5em;
+    }
+
+    .contact {
+        font-size: 1em;
+        margin: 0 auto;
+    }
+
+    #imessage {
+        height: 34.375em;
+    }
+
+    #imessage .messages-wrapper {
+        min-height: 24.0625em;
+    }
+
+    #imessage .message-input {
+        max-width: 200px;
+        font-size: .7em;
+    }
+
+    /* FAQ */
+    #faq {
+        height: auto;
+    }
+
+    .faq-header img,
+    .faq-img img {
+        display: none;
+    }
+
+    .faq-header h1,
+    .testimonial-header h1,
+    .contact-info-header h1 {
+        font-size: 1em;
+        margin: 0 auto;
+    }
+
+    .faq-general h1 {
+        font-size: .8em;
+        text-align: center;
+        padding: 1.25em;
+    }
+
+    .accordion-flex {
+        display: block;
+        font-size: .7em;
+        margin: 0;
+    }
+
+    /* TESTIMONIALS */
+    .description-testimonials h1 {
+        font-size: 1em;
+    }
+
+    .description-testimonials h3 {
+        font-size: .9em;
+    }
+
+    .testimonials-flex {
+        flex-wrap: wrap;
+        text-align: -webkit-center;
+    }
+
+    .testimonial-flex1,
+    .testimonial-flex2 {
+        display: inline-block;
+        align-items: center;
+    }
+
+    .box-testimonial p {
+        font-size: .8em;
+    }
+
+    .box-person .person-data {
+        font-size: .9em;
+    }
+
+        /* CONTACT */
+        #contact-info {
+            height: auto;
+        }
+
+        .contact-info-desc h1 {
+            font-size: 1em;
+        }
+
+        .flex-contact {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .flex-contact img {
+            width: 150px;
+        }
+
+        .social-icons {
+            display: block;
+            flex-direction: column;
+        }
+
+        .set1,
+        .set2 {
+            margin: 0;
+        }
+
+        .social-icons img {
+            width: 2.25em;
+            margin-right: .7em;
+        }
+
+        .site-1,
+        .site-2,
+        .site-3,
+        .site-4 {
+            width: auto;
+        }
+
+        /* FOOTER */
+        #footer {
+            display: flex;
+            justify-content: center;
+            font-size: .7em;
+        }
+
+        #footer img {
+            margin: 0 15px 0 0;
+        }
+}
+
+
+@media (min-width:481px)  {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    .arrow-down {
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    @keyframes bounce {
+        100% {
+            transform: 0;
+        }
+    }
+
+    .flex-contact {
+        justify-content: space-around;
+    }
+}
+
+@media (min-width:641px)  {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    section#hiw {
+        height: 130vh;
+    }
+
+    .accordion-flex {
+        text-align: -webkit-center;
+    }
+}
+
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */
+
+    .inner-main {
+        flex-direction: row;
+    }
+
+    .main-img img {
+        width: 80%;
+    }
+
+    .main-img h1 {
+        font-size: 1.5em;
+    }
+
+    .main-desc {
+        font-size: 2em;
+    }
+
+    /* HIW */
+
+    .hiw-desc h1 {
+        font-size: 5em;
+    }
+
+    .hiw-desc p {
+        font-size: 2em;
+    }
+
+    .hiw-desc.btn {
+        text-align: left;
+    }
+
+    .hiw-desc .btn a {
+        font-size: 1.5em;
+    }
+
+    /* FAQ */
+    .faq-header,
+    .testimonial-header,
+    .contact-info-header {
+        display: flex;
+        justify-content: space-between;
+        background: #786F6A;
+        width: 100%;
+        padding: 8px 30px 8px 30px;
+    }
+
+    .faq-header h1,
+    .testimonial-header h1,
+    .contact-info-header h1 {
+        font-size: 64px;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+
+    .faq-img img {
+        width: 73px;
+    }
+
+    .faq-general h1 {
+        padding: 30px 0 0 65px;
+    }
+
+    .accordion-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .testimonials-flex {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    /* CONTACT */
+    .social-icons {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .set1, .set2 {
+        margin: 2em;
+    }
+}

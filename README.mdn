@@ -1,0 +1,22 @@
+# TXT-A-NERD Documentation
+All of the contents are well-created and modified by Cristian Paul Castañeda. For any changes that can be revised, approved by the Owner or the Author of the website.
+
+## Technologies
+Speaking in web-technology and written using HTML, CSS, JavaScript and Library using Typed.js
+
+HTML - SEO, Semantics
+CSS - Flex
+JavaScript - Vanilla JS using Typing text, setIntervals, arrays and
+jQuery - typed.js
+Dependencies: nodemon, typed.js
+
+### Fonts, sizes, colors
+Fonts are well written in Playfair Display
+Sizes are written in 'em' to have solid pixels when zooming.
+Colors are written into 7 types including the background, texts, and Misc tags.
+
+### Acknowledgements
+Jesus Salgado, for contents and clarifications of project.
+
+Others
+Github.com, Figma,Adobe Photoshop 2019, VS Code
