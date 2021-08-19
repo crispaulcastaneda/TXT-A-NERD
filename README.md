@@ -23,6 +23,8 @@ Figma, Adobe Photoshop
 
 [Figma](https://www.figma.com/)
 
+[Boxicons](www.boxicons.com)
+
 ### Credits
 One of the Job platform that made us to be feel safe where we are.
 [UpWork](www.upwork.com)
